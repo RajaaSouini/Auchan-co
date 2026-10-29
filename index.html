@@ -9,13 +9,10 @@
 <body>
     <header>
         <p class="font-mono text-white bg-black text-center p-2">Livraison offerte dès 50 dh</p>
-        <nav class="">
-            <div class="flex flex-row justify-around">
+        <nav class="md:p-4">
+            <div class="flex flex-row justify-around md:flex md:justify-between">
                 <img src="/assets/images/logo-blac.png" alt="logo-page-auchan" class="w-48 h-32 ">
-                <button><img src="/assets/icons/panier-en-osier.png" alt="icone-panier" class="size-16 shadow-xl rounded-xl  "></button>
-            </div>
-            <div class="flex justify-center">
-                <input type="text" placeholder="Rechercher" class="border border-[#DBD5D5] rounded-xl p-2 text-center w-90 ">
+                <button><img src="/assets/icons/panier.png" alt="icone-panier" class="size-16   "></button>
             </div>
         </nav>
         <div class="m-4 bg-black p-8 rounded-xl flex flex-col gap-8 relative">
@@ -30,7 +27,7 @@
                 <button class="bg-[#E36A20]  w-50 p-4 text-white rounded-xl">Découvrir la sélection</button>
             </div>
 
-            <div class="bg-[#DBD5D5] w-30 rounded-l-lg text-center absolute top-105 right-0">
+            <div class="bg-[#DBD5D5] w-30 rounded-l-lg text-center absolute bottom-0 right-0 ">
                 <p class="font-mono">Disponible 24/24</p>
             </div>
         </div>
@@ -43,22 +40,32 @@
         EFF5ED girs clair
         vert foncé 096909-->
     </header>
-    <main>
-        <section class="m-8 flex flex-col gap-8">
-            <div>
+    <main> 
+        <div class="m-8">
                 <p class="text-[#096909] font-mono font-bold">A ne pas manquer</p>
                 <h2 class="text-2xl font-mono font-bold">Nos pépites du moment</h2>
-                <a href="">Voir tous les produits</a>
-            </div>
+                <div class="flex gap-2 my-8 items-center">
+                    <a href="">Voir tous les produits </a>
+                    <img src="./assets/icons/fleche-droite.png" alt="voirplus" class="size-8">
+                </div>
+        </div>
+        <div class="flex flex-wrap gap-4 p-8 font-bold">
+            <button class="border-2 rounded-xl p-4 border-[#DBD5D5]">Tout</button>
+            <button class="border-2 rounded-xl p-4 border-[#DBD5D5]">Fruits & légumes</button>
+            <button class="border-2 rounded-xl p-4 border-[#DBD5D5]">Boissons</button>
+            <button class="border-2 rounded-xl p-4 border-[#DBD5D5]">Maisons</button>
+            <button class="border-2 rounded-xl p-4 border-[#DBD5D5]">Vétements</button>
+        </div>
+        <section class="m-8 flex flex-col gap-8 md:flex-row md:flex-wrap ">
             <article class="p-4 w-96 relative border border-[#096909] rounded-xl">
                 <div class="flex flex-col items-center ">
-                    <img src="./assets/images/produit1-chaussure.jpg" alt="chaussure blue nike" class="w-full rounded-xl">
+                    <img src="./assets/images/produit1-chaussure.jpg" alt="chaussure blue nike" class="w-full rounded-xl  h-96 object-cover">
                 </div>
                 <div class="bg-white flex justify-between absolute bottom-4 p-8  w-88">
                     <div class="font-mono font-bold flex flex-col gap-2">
                         <h3>Nom produit</h3>
                         <p>description produit</p>
-                        <p>prix dh</p>
+                        <p class="text-xl text-[#E36A20]">prix dh</p>
                     </div>
                     <button class="bg-[#9AD996] p-4 rounded-xl  font-mono ">Ajouter</button>    
                 </div>
@@ -66,13 +73,13 @@
 
             <article class="p-4 w-96 relative border border-[#096909] rounded-xl">
                 <div class="flex flex-col items-center ">
-                    <img src="./assets/images/produit1-chaussure.jpg" alt="chaussure blue nike" class="w-full rounded-xl">
+                    <img src="./assets/images/produit1-chaussure.jpg" alt="chaussure blue nike" class="w-full rounded-xl h-96 object-cover">
                 </div>
                 <div class="bg-white flex justify-between absolute bottom-4 p-8  w-88">
                     <div class="font-mono font-bold flex flex-col gap-2">
                         <h3>Nom produit</h3>
                         <p>description produit</p>
-                        <p>prix dh</p>
+                        <p class="text-xl text-[#E36A20]">prix dh</p>
                     </div>
                     <button class="bg-[#9AD996] p-4 rounded-xl  font-mono ">Ajouter</button>    
                 </div>
@@ -80,19 +87,42 @@
 
             <article class="p-4 w-96 relative border border-[#096909] rounded-xl">
                 <div class="flex flex-col items-center ">
-                    <img src="./assets/images/produit1-chaussure.jpg" alt="chaussure blue nike" class="w-full rounded-xl">
+                    <img src="./assets/images/produit1-chaussure.jpg" alt="chaussure blue nike" class="w-full rounded-xl h-96 object-cover">
                 </div>
                 <div class="bg-white flex justify-between absolute bottom-4 p-8  w-88">
                     <div class="font-mono font-bold flex flex-col gap-2">
                         <h3>Nom produit</h3>
                         <p>description produit</p>
-                        <p>prix dh</p>
+                        <p class="text-xl text-[#E36A20]">prix dh</p>
                     </div>
                     <button class="bg-[#9AD996] p-4 rounded-xl  font-mono ">Ajouter</button>    
                 </div>
             </article>
         </section>
     </main>
+    <footer class="bg-black flex flex-col gap-8 p-8 md:py-24  md:flex md:flex-row lg:justify-around">
+        <div class=" flex flex-col gap-4">
+            <img class="size-12" src="./assets/icons/horloge-24-heures.png" alt="">
+            <div class="text-white">
+                <h4 class="font-mono text-xl">Disponible 24 / 24</h4>
+                <p>Choisissez le créneau qui vous ressemble , le jour meme.</p>
+            </div>
+        </div>
+        <div class=" flex flex-col gap-4">
+            <img class="size-12" src="./assets/icons/nature.png" alt="">
+            <div class="text-white">
+                <h4 class="font-mono text-xl">Mieux manger</h4>
+                <p>Des produits de saisons , et +1200 autre produits.</p>
+            </div>
+        </div>
+        <div class=" flex flex-col gap-4">
+            <img class="size-12" src="./assets/icons/cercle.png" alt="">
+            <div class="text-white">
+                <h4 class="font-mono text-xl">Livraison</h4>
+                <p>Livraison partout , juste remplissez vos panier , et contacter nous.</p>
+            </div>
+        </div>
+    </footer>
     <script src="./js/main.js"></script>
 </body>
 </html>
