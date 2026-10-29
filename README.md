@@ -33,8 +33,38 @@ auchan/
 
 └── validation.js # Fonctions de vérification Regex pour le formulaire
 
+## Les technologies 
+
+Html5 , CSS3 , Tailwind , JavaScript 
 ## Contexte du projet 
 
 ***Le Centre Commercial AUCHAN souhaite déployer sa nouvelle plateforme e-commerce. L'équipe UX/UI a validé les maquettes, le projet entre donc dans sa phase de réalisation.***
 
 ***Votre mission est de développer une application web dynamique, modulaire et structurée côté client. Vous devrez intégrer l'interface client et un tableau de bord administrateur avec Tailwind CSS, exploiter toute la puissance de JavaScript ES6+ (Modules, Arrow functions), gérer des flux de données complexes (Fetch, Sérialisation, CRUD) et implémenter des interactions avancées (Drag & Drop)***
+
+## La charte graphique 
+
+**Colors**
+`#E36A20`
+`#9AD996`
+`#DBD5D5`
+`#EFF5ED` 
+`#096909`
+
+**Font family**
+
+monoscape , bold
+
+**Text size**
+
+h1 ==> 3xl 
+H2 ==> 2xl 
+h3 ==> xl 
+p ==> 16 px
+
+**padding**
+
+p-4 buttons 
+p-8 large things 
+
+
