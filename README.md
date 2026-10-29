@@ -67,4 +67,6 @@ p ==> 16 px
 p-4 buttons 
 p-8 large things 
 
+# Documentation sur les nouveaux notions appris
+
 
