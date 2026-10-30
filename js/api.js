@@ -1,12 +1,14 @@
 const data_products = "./data/data.json";
 
+
+
 /*
 fetch(data_products)
     .then(response => response.json())
     .then(users => console.log(users))
     .catch(error => console.log(error)); */
 
-async function fetchProducts() {
+export async function fetchProducts() {
     try{
         const response = await fetch(data_products);
 
@@ -19,7 +21,9 @@ async function fetchProducts() {
         return products;
     }catch (error){
         console.log("Echec de la récupération des produits" , error);
+    }finally{
+        console.log("fetxh products done")
     }
 }
 
-fetchProducts();
+//fetchProducts();
