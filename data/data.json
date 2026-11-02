@@ -7,7 +7,7 @@
       "stars": 4.7,
       "count": 120
     },
-    "priceCents": 19900,
+    "priceCents": 199,
     "category": "Beauty & Personal Care",
     "subCategory": "Skincare",
     "keywords": [
@@ -26,7 +26,7 @@
       "stars": 4.5,
       "count": 85
     },
-    "priceCents": 6900,
+    "priceCents": 69,
     "category": "Beauty & Personal Care",
     "subCategory": "Hair Care",
     "keywords": [
@@ -45,7 +45,7 @@
       "stars": 4.6,
       "count": 98
     },
-    "priceCents": 14900,
+    "priceCents": 149,
     "category": "Beauty & Personal Care",
     "subCategory": "Makeup",
     "keywords": [
@@ -64,7 +64,7 @@
       "stars": 4.8,
       "count": 160
     },
-    "priceCents": 34900,
+    "priceCents": 349,
     "category": "Beauty & Personal Care",
     "subCategory": "Fragrances",
     "keywords": [
@@ -83,7 +83,7 @@
       "stars": 4.4,
       "count": 70
     },
-    "priceCents": 17900,
+    "priceCents": 179,
     "category": "Beauty & Personal Care",
     "subCategory": "Grooming",
     "keywords": [
@@ -102,7 +102,7 @@
       "stars": 4.7,
       "count": 140
     },
-    "priceCents": 4500,
+    "priceCents": 45,
     "category": "Beauty & Personal Care",
     "subCategory": "Bath & Body",
     "keywords": [
@@ -121,7 +121,7 @@
       "stars": 4.5,
       "count": 65
     },
-    "priceCents": 3900,
+    "priceCents": 39,
     "category": "Beauty & Personal Care",
     "subCategory": "Nail Care",
     "keywords": [
@@ -140,7 +140,7 @@
       "stars": 4.6,
       "count": 110
     },
-    "priceCents": 6500,
+    "priceCents": 65,
     "category": "Beauty & Personal Care",
     "subCategory": "Hair Care",
     "keywords": [
@@ -159,7 +159,7 @@
       "stars": 4.3,
       "count": 55
     },
-    "priceCents": 4900,
+    "priceCents": 49,
     "category": "Beauty & Personal Care",
     "subCategory": "Men's Grooming Products",
     "keywords": [
@@ -178,7 +178,7 @@
       "stars": 4.7,
       "count": 200
     },
-    "priceCents": 8900,
+    "priceCents": 89,
     "category": "Beauty & Personal Care",
     "subCategory": "Health & Wellness Products",
     "keywords": [
@@ -197,7 +197,7 @@
       "stars": 4.7,
       "count": 230
     },
-    "priceCents": 39900,
+    "priceCents": 399,
     "category": "Electronics & Gadgets",
     "subCategory": "Audio",
     "keywords": [
@@ -216,7 +216,7 @@
       "stars": 4.6,
       "count": 320
     },
-    "priceCents": 249900,
+    "priceCents": 2499,
     "category": "Electronics & Gadgets",
     "subCategory": "Mobile Phones",
     "keywords": [
@@ -234,7 +234,7 @@
       "stars": 4.8,
       "count": 190
     },
-    "priceCents": 499900,
+    "priceCents": 4999,
     "category": "Electronics & Gadgets",
     "subCategory": "Televisions",
     "keywords": [
@@ -253,7 +253,7 @@
       "stars": 4.9,
       "count": 210
     },
-    "priceCents": 899900,
+    "priceCents": 8999,
     "category": "Electronics & Gadgets",
     "subCategory": "Computers",
     "keywords": [
@@ -272,7 +272,7 @@
       "stars": 4.5,
       "count": 130
     },
-    "priceCents": 44900,
+    "priceCents": 449,
     "category": "Electronics & Gadgets",
     "subCategory": "Wearables",
     "keywords": [
@@ -291,7 +291,7 @@
       "stars": 4.3,
       "count": 95
     },
-    "priceCents": 129900,
+    "priceCents": 1299,
     "category": "Electronics & Gadgets",
     "subCategory": "Tablets",
     "keywords": [
@@ -310,7 +310,7 @@
       "stars": 4.7,
       "count": 180
     },
-    "priceCents": 29900,
+    "priceCents": 299,
     "category": "Electronics & Gadgets",
     "subCategory": "Audio",
     "keywords": [
@@ -329,7 +329,7 @@
       "stars": 4.8,
       "count": 115
     },
-    "priceCents": 649900,
+    "priceCents": 6499,
     "category": "Electronics & Gadgets",
     "subCategory": "Cameras",
     "keywords": [
@@ -348,7 +348,7 @@
       "stars": 4.2,
       "count": 75
     },
-    "priceCents": 6900,
+    "priceCents": 69,
     "category": "Electronics & Gadgets",
     "subCategory": "Storage",
     "keywords": [
@@ -367,7 +367,7 @@
       "stars": 4.6,
       "count": 90
     },
-    "priceCents": 109900,
+    "priceCents": 1099,
     "category": "Electronics & Gadgets",
     "subCategory": "Cameras",
     "keywords": [
@@ -386,7 +386,7 @@
       "stars": 4.5,
       "count": 150
     },
-    "priceCents": 34900,
+    "priceCents": 349,
     "category": "Fashion & Apparel",
     "subCategory": "Men's Clothing",
     "keywords": [
@@ -405,7 +405,7 @@
       "stars": 4.8,
       "count": 95
     },
-    "priceCents": 39900,
+    "priceCents": 399,
     "category": "Fashion & Apparel",
     "subCategory": "Women's Clothing",
     "keywords": [
@@ -424,7 +424,7 @@
       "stars": 4.7,
       "count": 210
     },
-    "priceCents": 44900,
+    "priceCents": 449,
     "category": "Fashion & Apparel",
     "subCategory": "Footwear",
     "keywords": [
@@ -443,7 +443,7 @@
       "stars": 4.6,
       "count": 130
     },
-    "priceCents": 54900,
+    "priceCents": 549,
     "category": "Fashion & Apparel",
     "subCategory": "Accessories",
     "keywords": [
@@ -462,7 +462,7 @@
       "stars": 4.4,
       "count": 90
     },
-    "priceCents": 19900,
+    "priceCents": 199,
     "category": "Fashion & Apparel",
     "subCategory": "Accessories",
     "keywords": [
@@ -481,7 +481,7 @@
       "stars": 4.3,
       "count": 85
     },
-    "priceCents": 27900,
+    "priceCents": 279,
     "category": "Fashion & Apparel",
     "subCategory": "Men's Clothing",
     "keywords": [
@@ -500,7 +500,7 @@
       "stars": 4.6,
       "count": 105
     },
-    "priceCents": 37900,
+    "priceCents": 379,
     "category": "Fashion & Apparel",
     "subCategory": "Footwear",
     "keywords": [
@@ -519,7 +519,7 @@
       "stars": 4.5,
       "count": 200
     },
-    "priceCents": 12900,
+    "priceCents": 129,
     "category": "Fashion & Apparel",
     "subCategory": "Men's Clothing",
     "keywords": [
@@ -538,7 +538,7 @@
       "stars": 4.9,
       "count": 150
     },
-    "priceCents": 69900,
+    "priceCents": 699,
     "category": "Fashion & Apparel",
     "subCategory": "Accessories",
     "keywords": [
@@ -557,7 +557,7 @@
       "stars": 4.2,
       "count": 70
     },
-    "priceCents": 6900,
+    "priceCents": 69,
     "category": "Fashion & Apparel",
     "subCategory": "Footwear",
     "keywords": [
@@ -576,7 +576,7 @@
       "stars": 4.8,
       "count": 220
     },
-    "priceCents": 899900,
+    "priceCents": 8999,
     "category": "Home & Kitchen",
     "subCategory": "Furniture",
     "keywords": [
@@ -595,7 +595,7 @@
       "stars": 4.6,
       "count": 150
     },
-    "priceCents": 699900,
+    "priceCents": 6999,
     "category": "Home & Kitchen",
     "subCategory": "Kitchen Appliances",
     "keywords": [
@@ -614,7 +614,7 @@
       "stars": 4.4,
       "count": 180
     },
-    "priceCents": 119900,
+    "priceCents": 1199,
     "category": "Home & Kitchen",
     "subCategory": "Home Appliances",
     "keywords": [
@@ -633,7 +633,7 @@
       "stars": 4.7,
       "count": 95
     },
-    "priceCents": 149900,
+    "priceCents": 1499,
     "category": "Home & Kitchen",
     "subCategory": "Cookware & Bakeware",
     "keywords": [
@@ -652,7 +652,7 @@
       "stars": 4.9,
       "count": 70
     },
-    "priceCents": 89900,
+    "priceCents": 899,
     "category": "Home & Kitchen",
     "subCategory": "Dinnerware & Serveware",
     "keywords": [
@@ -671,7 +671,7 @@
       "stars": 4.8,
       "count": 140
     },
-    "priceCents": 399900,
+    "priceCents": 3999,
     "category": "Home & Kitchen",
     "subCategory": "Bedding",
     "keywords": [
@@ -690,7 +690,7 @@
       "stars": 4.5,
       "count": 85
     },
-    "priceCents": 27900,
+    "priceCents": 279,
     "category": "Home & Kitchen",
     "subCategory": "Lighting",
     "keywords": [
@@ -709,7 +709,7 @@
       "stars": 4.6,
       "count": 110
     },
-    "priceCents": 109900,
+    "priceCents": 1099,
     "category": "Home & Kitchen",
     "subCategory": "Home Decor",
     "keywords": [
@@ -728,7 +728,7 @@
       "stars": 4.3,
       "count": 55
     },
-    "priceCents": 14900,
+    "priceCents": 149,
     "category": "Home & Kitchen",
     "subCategory": "Storage & Organization",
     "keywords": [
@@ -747,7 +747,7 @@
       "stars": 4.8,
       "count": 120
     },
-    "priceCents": 11900,
+    "priceCents": 119,
     "category": "Home & Kitchen",
     "subCategory": "Cleaning Supplies",
     "keywords": [
@@ -766,7 +766,7 @@
       "stars": 4.7,
       "count": 320
     },
-    "priceCents": 349900,
+    "priceCents": 3499,
     "category": "Health & Fitness",
     "subCategory": "Fitness Equipment",
     "keywords": [
@@ -785,7 +785,7 @@
       "stars": 4.5,
       "count": 260
     },
-    "priceCents": 59900,
+    "priceCents": 599,
     "category": "Health & Fitness",
     "subCategory": "Fitness Equipment",
     "keywords": [
@@ -804,7 +804,7 @@
       "stars": 4.6,
       "count": 180
     },
-    "priceCents": 44900,
+    "priceCents": 449,
     "category": "Health & Fitness",
     "subCategory": "Sports Nutrition",
     "keywords": [
@@ -823,7 +823,7 @@
       "stars": 4.8,
       "count": 210
     },
-    "priceCents": 29900,
+    "priceCents": 299,
     "category": "Health & Fitness",
     "subCategory": "Health Monitors",
     "keywords": [
@@ -842,7 +842,7 @@
       "stars": 4.9,
       "count": 150
     },
-    "priceCents": 12900,
+    "priceCents": 129,
     "category": "Health & Fitness",
     "subCategory": "First Aid",
     "keywords": [
@@ -861,7 +861,7 @@
       "stars": 4.5,
       "count": 90
     },
-    "priceCents": 2900,
+    "priceCents": 29,
     "category": "Health & Fitness",
     "subCategory": "Personal Health",
     "keywords": [
@@ -880,7 +880,7 @@
       "stars": 4.4,
       "count": 100
     },
-    "priceCents": 7900,
+    "priceCents": 79,
     "category": "Health & Fitness",
     "subCategory": "Sports Gear & Accessories",
     "keywords": [
@@ -899,7 +899,7 @@
       "stars": 4.7,
       "count": 120
     },
-    "priceCents": 14900,
+    "priceCents": 149,
     "category": "Health & Fitness",
     "subCategory": "Health Monitors",
     "keywords": [
@@ -918,7 +918,7 @@
       "stars": 4.6,
       "count": 200
     },
-    "priceCents": 14900,
+    "priceCents": 149,
     "category": "Health & Fitness",
     "subCategory": "Yoga & Meditation Supplies",
     "keywords": [
@@ -937,7 +937,7 @@
       "stars": 4.3,
       "count": 70
     },
-    "priceCents": 8900,
+    "priceCents": 89,
     "category": "Health & Fitness",
     "subCategory": "Sports Gear & Accessories",
     "keywords": [

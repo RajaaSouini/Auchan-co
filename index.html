@@ -67,14 +67,18 @@
                 </div>
                 <div>
                     <input id="search" type="text" placeholder="Chercher le produit" class="border rounded-xl text-center">
+                    <input id="priceSearchMin" type="number" placeholder="trier par prix min" class="border rounded-xl text-center" >
+                    <input id="priceSearchMax" type="number" placeholder="trier par prix max" class="border rounded-xl text-center" >
+
                 </div>
         </div>
         <div class="flex flex-wrap gap-4 p-8 font-bold">
-            <button class="border-2 rounded-xl p-4 border-[#DBD5D5]">Tout</button>
-            <button class="border-2 rounded-xl p-4 border-[#DBD5D5]">Fruits & légumes</button>
-            <button class="border-2 rounded-xl p-4 border-[#DBD5D5]">Boissons</button>
-            <button class="border-2 rounded-xl p-4 border-[#DBD5D5]">Maisons</button>
-            <button class="border-2 rounded-xl p-4 border-[#DBD5D5]">Vétements</button>
+            <button data-category="all" class="categ border-2 rounded-xl p-4 border-[#DBD5D5]">Tout</button>
+            <button data-category="Beauty & Personal Care" class="categ border-2 rounded-xl p-4 border-[#DBD5D5]">Beauty & Personal Care</button>
+            <button data-category="Electronics & Gadgets" class="categ border-2 rounded-xl p-4 border-[#DBD5D5]">Electronics & Gadgets</button>
+            <button data-category="Fashion & Apparel" class="categ border-2 rounded-xl p-4 border-[#DBD5D5]">Fashion & Apparel</button>
+            <button data-category="Home & Kitchen" class="categ border-2 rounded-xl p-4 border-[#DBD5D5]">Home & Kitchen</button>
+            <button data-category="Health & Fitness" class="categ border-2 rounded-xl p-4 border-[#DBD5D5]">Health & Fitness</button>
         </div>
         <section class="m-8 flex flex-col gap-8 md:flex-row md:flex-wrap md:justify-around containerProducts">
             

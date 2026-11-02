@@ -12,7 +12,7 @@ function renderProduct(list){
                     <div class="font-mono font-bold flex flex-col gap-2">
                         <h3>${produit.name}</h3>
                        <p>${produit.description}</p>
-                        <p class="text-xl text-[#E36A20] ">${produit.priceCents / 100}  </p>
+                        <p class="text-xl text-[#E36A20] ">${produit.priceCents}  dh</p>
                     </div>
                     <button class="bg-[#9AD996] p-2 rounded-xl  font-mono ">Ajouter</button>    
                 </div>
@@ -34,15 +34,34 @@ export default function afficherProducts(){
 
 
 
+let currentCategory = "all";
 
 export function SearchProduct(){
     const search = document.querySelector('#search');
     const searchValue = search.value.toLocaleLowerCase();
+
+    const min = document.querySelector("#priceSearchMin").value;
+    const max = document.querySelector("#priceSearchMax").value;
+
     const searchProducts = productsAll.filter((product) => {
-        return product.name.toLocaleLowerCase().includes(searchValue);
+        const searchbyName =  product.name.toLocaleLowerCase().includes(searchValue);
+        const searchByCateg = currentCategory === "all" || product.category === currentCategory;
+        const price = product.priceCents ;
+        const searchByPrice = (price >= Number(min)) && (price <= Number(max));
+        return searchbyName && searchByCateg && searchByPrice;
     });
     renderProduct(searchProducts);
 }
+
+export function category(category){
+    currentCategory = category;
+    SearchProduct();
+}
+
+
+
+
+
 
 
 
