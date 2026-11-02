@@ -34,8 +34,7 @@ export default function afficherProducts(){
 
 
 
-let currentCategory = "all";
-
+let currentCategory = "all";           
 export function SearchProduct(){
     const search = document.querySelector('#search');
     const searchValue = search.value.toLocaleLowerCase();
@@ -44,7 +43,28 @@ export function SearchProduct(){
     const max = document.querySelector("#priceSearchMax").value;
 
     const searchProducts = productsAll.filter((product) => {
-        const searchbyName =  product.name.toLocaleLowerCase().includes(searchValue);
+        const searchbyName =  product.name.toLocaleLowerCase().startsWith(searchValue); //includes 
+        const searchByCateg = currentCategory === "all" || product.category === currentCategory;
+        const price = product.priceCents ;
+
+        const searchByMin = min === "" || price >= Number(min);
+        const searchByMax = max === "" || price <= Number(max);
+        // const searchByPrice = (price >= Number(min)) && (price <= Number(max));
+        //return searchbyName && searchByCateg && searchByPrice;
+        return searchByCateg && searchbyName && searchByMax && searchByMin;
+    });
+    renderProduct(searchProducts);
+}
+
+/*export function SearchProduct(){
+    const search = document.querySelector('#search');
+    const searchValue = search.value.toLocaleLowerCase();
+
+    const min = document.querySelector("#priceSearchMin").value;
+    const max = document.querySelector("#priceSearchMax").value;
+
+    const searchProducts = productsAll.filter((product) => {
+        const searchbyName =  product.name.toLocaleLowerCase().startsWith(searchValue); //includes 
         const searchByCateg = currentCategory === "all" || product.category === currentCategory;
         const price = product.priceCents ;
         const searchByPrice = (price >= Number(min)) && (price <= Number(max));
@@ -52,7 +72,7 @@ export function SearchProduct(){
     });
     renderProduct(searchProducts);
 }
-
+ */
 export function category(category){
     currentCategory = category;
     SearchProduct();
