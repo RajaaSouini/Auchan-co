@@ -5,7 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/dist/output.css">
-
+    <style>
+        .nav{
+            margin-top: 1rem;
+            text-align: center;
+        }
+        .nav button{
+            margin: 0 2px;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -68,9 +76,10 @@
             <button class="border-2 rounded-xl p-4 border-[#DBD5D5]">Maisons</button>
             <button class="border-2 rounded-xl p-4 border-[#DBD5D5]">Vétements</button>
         </div>
-        <section class="m-8 flex flex-col gap-8 md:flex-row md:flex-wrap containerProducts">
+        <section class="m-8 flex flex-col gap-8 md:flex-row md:flex-wrap md:justify-around containerProducts">
             
         </section>
+        <div id="pagination" class="nav"></div>
     </main>
     <footer class="bg-black flex flex-col gap-8 p-8 md:py-24  md:flex md:flex-row lg:justify-around">
         <div class=" flex flex-col gap-4">

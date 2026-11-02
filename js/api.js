@@ -1,15 +1,15 @@
-const data_products = "./data/data.json";
+import { EnregistrerProducts , ReadProducts } from "./storage.js";       
 
 
-
-/*
-fetch(data_products)
-    .then(response => response.json())
-    .then(users => console.log(users))
-    .catch(error => console.log(error)); */
-
+const data_products = "./data/data.json"; 
+             
 export async function fetchProducts() {
     try{
+        const saved = ReadProducts();
+        if(saved){
+            console.log("charge depuis localstorage");
+        }
+
         const response = await fetch(data_products);
         
         if(!response.ok){
@@ -19,9 +19,11 @@ export async function fetchProducts() {
         const products = await response.json();
         
         console.log(products);
+        EnregistrerProducts(products);
         return products;
     }catch (error){
         console.log("Echec de la récupération des produits" , error);
+        throw error;
     }finally{
         console.log("fetxh products done")
     }

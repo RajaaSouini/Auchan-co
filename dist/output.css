@@ -443,6 +443,9 @@
     .md\:flex-wrap {
       flex-wrap: wrap;
     }
+    .md\:justify-around {
+      justify-content: space-around;
+    }
     .md\:justify-between {
       justify-content: space-between;
     }

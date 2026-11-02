@@ -1,6 +1,6 @@
 import { fetchProducts } from "./api.js";
 
-let productsAll = [];
+export let productsAll = [];
 
 function renderProduct(list){
     const container = document.querySelector('.containerProducts');

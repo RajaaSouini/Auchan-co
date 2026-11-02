@@ -1,5 +1,4 @@
 import afficherProducts, { SearchProduct } from "./ui.js";
-
 afficherProducts();
 
 document.querySelector('#search').addEventListener('input', SearchProduct);
@@ -11,6 +10,7 @@ const navbar = document.querySelector('#mobile-nav');
 burger.addEventListener('click' , function(){
     navbar.classList.remove('hidden');
 })
+
 
 
 
