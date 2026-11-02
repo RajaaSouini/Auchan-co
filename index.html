@@ -69,7 +69,12 @@
                     <input id="search" type="text" placeholder="Chercher le produit" class="border rounded-xl text-center">
                     <input id="priceSearchMin" type="number" placeholder="trier par prix min" class="border rounded-xl text-center" >
                     <input id="priceSearchMax" type="number" placeholder="trier par prix max" class="border rounded-xl text-center" >
-
+                    <select name="" id="combien">
+                        <option value="5">5</option>
+                        <option value="10" selected>8</option>
+                        <option value="10">10</option>
+                        <option value="20">20</option>
+                    </select>
                 </div>
         </div>
         <div class="flex flex-wrap gap-4 p-8 font-bold">
@@ -83,7 +88,10 @@
         <section class="m-8 flex flex-col gap-8 md:flex-row md:flex-wrap md:justify-around containerProducts">
             
         </section>
-        <div id="pagination" class="nav"></div>
+
+        <div id="pagination" class="nav">
+            
+        </div>
     </main>
     <footer class="bg-black flex flex-col gap-8 p-8 md:py-24  md:flex md:flex-row lg:justify-around">
         <div class=" flex flex-col gap-4">

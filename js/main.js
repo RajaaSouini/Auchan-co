@@ -1,7 +1,9 @@
-import afficherProducts, { SearchProduct , category} from "./ui.js";
+import afficherProducts from "./ui.js";
+import { SearchProduct, category } from "./products.js";
 
-afficherProducts();
 
+await afficherProducts();
+SearchProduct();
 document.querySelector('#search').addEventListener('input', SearchProduct);
 
 //Burger menu 

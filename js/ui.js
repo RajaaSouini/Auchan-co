@@ -2,7 +2,7 @@ import { fetchProducts } from "./api.js";
 
 export let productsAll = [];
 
-function renderProduct(list){
+export function renderProduct(list){
     const container = document.querySelector('.containerProducts');
     container.innerHTML = list.map(produit => `<article class="p-4 w-96 relative border border-[#096909] rounded-xl ">
                 <div class="flex flex-col items-center ">
@@ -34,49 +34,7 @@ export default function afficherProducts(){
 
 
 
-let currentCategory = "all";           
-export function SearchProduct(){
-    const search = document.querySelector('#search');
-    const searchValue = search.value.toLocaleLowerCase();
 
-    const min = document.querySelector("#priceSearchMin").value;
-    const max = document.querySelector("#priceSearchMax").value;
-
-    const searchProducts = productsAll.filter((product) => {
-        const searchbyName =  product.name.toLocaleLowerCase().startsWith(searchValue); //includes 
-        const searchByCateg = currentCategory === "all" || product.category === currentCategory;
-        const price = product.priceCents ;
-
-        const searchByMin = min === "" || price >= Number(min);
-        const searchByMax = max === "" || price <= Number(max);
-        // const searchByPrice = (price >= Number(min)) && (price <= Number(max));
-        //return searchbyName && searchByCateg && searchByPrice;
-        return searchByCateg && searchbyName && searchByMax && searchByMin;
-    });
-    renderProduct(searchProducts);
-}
-
-/*export function SearchProduct(){
-    const search = document.querySelector('#search');
-    const searchValue = search.value.toLocaleLowerCase();
-
-    const min = document.querySelector("#priceSearchMin").value;
-    const max = document.querySelector("#priceSearchMax").value;
-
-    const searchProducts = productsAll.filter((product) => {
-        const searchbyName =  product.name.toLocaleLowerCase().startsWith(searchValue); //includes 
-        const searchByCateg = currentCategory === "all" || product.category === currentCategory;
-        const price = product.priceCents ;
-        const searchByPrice = (price >= Number(min)) && (price <= Number(max));
-        return searchbyName && searchByCateg && searchByPrice;
-    });
-    renderProduct(searchProducts);
-}
- */
-export function category(category){
-    currentCategory = category;
-    SearchProduct();
-}
 
 
 
