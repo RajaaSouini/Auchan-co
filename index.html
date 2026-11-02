@@ -5,15 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/dist/output.css">
+
 </head>
 <body>
     <header>
         <p class="font-mono text-white bg-black text-center p-2">Livraison offerte dès 50 dh</p>
-        <nav class="md:p-4">
+        <div class="md:p-4">
             <div class="flex flex-row justify-around md:flex md:justify-between">
                 <img src="/assets/images/logo-blac.png" alt="logo-page-auchan" class="w-48 h-32 ">
                 <button><img src="/assets/icons/panier.png" alt="icone-panier" class="size-10   "></button>
+                <button id="burger-btn" class="burger-menu flex flex-col gap-2">
+                    <span class="bar border-2 inline-block w-12"></span>
+                    <span class="bar border-2 inline-block w-12"></span>
+                    <span class="bar border-2 inline-block w-12"></span>
+                </button>
             </div>
+            
+        </div>
+       
+
+        <nav id="mobile-nav" class="hidden">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
         </nav>
         <div class="m-4 bg-black p-8 rounded-xl flex flex-col gap-8 relative">
             <p class="text-[#00000] bg-white w-60 text-center rounded-xl my-4">Le frais simplement meilleur</p>
@@ -37,8 +54,11 @@
                 <p class="text-[#096909] font-mono font-bold">A ne pas manquer</p>
                 <h2 class="text-2xl font-mono font-bold">Nos pépites du moment</h2>
                 <div class="flex gap-2 my-8 items-center">
-                    <a href="">Voir tous les produits </a>
+                    <a href="/products.html">Voir tous les produits </a>
                     <img src="./assets/icons/fleche-droite.png" alt="voirplus" class="size-8">
+                </div>
+                <div>
+                    <input id="search" type="text" placeholder="Chercher le produit" class="border rounded-xl text-center">
                 </div>
         </div>
         <div class="flex flex-wrap gap-4 p-8 font-bold">
@@ -49,47 +69,7 @@
             <button class="border-2 rounded-xl p-4 border-[#DBD5D5]">Vétements</button>
         </div>
         <section class="m-8 flex flex-col gap-8 md:flex-row md:flex-wrap containerProducts">
-            <article class="p-4 w-96 relative border border-[#096909] rounded-xl">
-                <div class="flex flex-col items-center ">
-                    <img src="./assets/images/produit1-chaussure.jpg" alt="chaussure blue nike" class="w-full rounded-xl  h-96 object-cover">
-                </div>
-                <div class="bg-white flex justify-between absolute bottom-4 p-8  w-88">
-                    <div class="font-mono font-bold flex flex-col gap-2">
-                        <h3>Nom produit</h3>
-                        <p>description produit</p>
-                        <p class="text-xl text-[#E36A20]">prix dh</p>
-                    </div>
-                    <button class="bg-[#9AD996] p-4 rounded-xl  font-mono ">Ajouter</button>    
-                </div>
-            </article>
-
-            <article class="p-4 w-96 relative border border-[#096909] rounded-xl">
-                <div class="flex flex-col items-center ">
-                    <img src="./assets/images/produit1-chaussure.jpg" alt="chaussure blue nike" class="w-full rounded-xl h-96 object-cover">
-                </div>
-                <div class="bg-white flex justify-between absolute bottom-4 p-8  w-88">
-                    <div class="font-mono font-bold flex flex-col gap-2">
-                        <h3>Nom produit</h3>
-                        <p>description produit</p>
-                        <p class="text-xl text-[#E36A20]">prix dh</p>
-                    </div>
-                    <button class="bg-[#9AD996] p-4 rounded-xl  font-mono ">Ajouter</button>    
-                </div>
-            </article>
-
-            <article class="p-4 w-96 relative border border-[#096909] rounded-xl">
-                <div class="flex flex-col items-center ">
-                    <img src="./assets/images/produit1-chaussure.jpg" alt="chaussure blue nike" class="w-full rounded-xl h-96 object-cover">
-                </div>
-                <div class="bg-white flex justify-between absolute bottom-4 p-8  w-88">
-                    <div class="font-mono font-bold flex flex-col gap-2">
-                        <h3>Nom produit</h3>
-                        <p>description produit</p>
-                        <p class="text-xl text-[#E36A20]">prix dh</p>
-                    </div>
-                    <button class="bg-[#9AD996] p-4 rounded-xl  font-mono ">Ajouter</button>    
-                </div>
-            </article>
+            
         </section>
     </main>
     <footer class="bg-black flex flex-col gap-8 p-8 md:py-24  md:flex md:flex-row lg:justify-around">
