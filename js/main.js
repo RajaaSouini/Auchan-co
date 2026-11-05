@@ -1,6 +1,7 @@
 import afficherProducts from "./ui.js";
 import { SearchProduct, category } from "./products.js";
 //import { modal } from "./cart.js";
+import { renderPanier , Count } from "./cart.js";
 
 
 await afficherProducts();
@@ -28,6 +29,8 @@ document.querySelector("#priceSearchMax").addEventListener('input' , SearchProdu
 
 
 //modal();
+renderPanier();
+Count();
 
 
 

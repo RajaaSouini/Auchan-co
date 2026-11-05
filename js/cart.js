@@ -39,22 +39,19 @@ export function renderPanier(){
     liste.innerHTML =cards.map(produit => 
         
          {
-            return `<article data-id="${produit.id}" class="p-4 w-96 relative border border-[#096909] rounded-xl card">
-                <div class="flex flex-col items-center ">
-                    <img src="${produit.image}" alt="chaussure blue nike" class="w-full rounded-xl  h-96 object-cover">
-                </div>
-                <div class="bg-white  justify-between absolute bottom-4 p-2 w-88">
+            return `<article data-id="${produit.id}" class="p-4 w-full  border border-[#096909] rounded-xl">
+                
+                <div class="bg-white  justify-between  p-2 w-">
                     <div class="font-mono  flex flex-col gap-2">
-                        <h3 class="font-bold">${produit.name}</h3>
-                       <p>${produit.description}</p>
+                        <h3 class="font-bold">${produit.name}</h3>             
                         <div class="flex justify-between">
                             <p class="text-xl text-[#E36A20] ">${produit.priceCents}  dh</p>
                         </div>
                     </div>
-                    <button class="moins">-</button>
-                    <span>${produit.quantity}</span>
-                    <button class="plus">+</button>
-                    <button class="bg-[#9AD996] p-2 rounded-xl  font-mono ajouter w-full">Acheter</button>    
+                        <button class="moins border p-2 border-[#E36A20] rounded-xl">-</button>
+                        <span>${produit.quantity}</span>
+                        <button class="plus border p-2 border-[#E36A20] rounded-xl">+</button>
+                        <button class="bg-red-600 p-2 rounded-xl text-white  font-mono supprimer w-full">Supprimer</button>    
                 </div>
             </article>`
          }).join("");
@@ -83,6 +80,7 @@ export function ajouterPanier(produit){
     }
     EnregistrerCard(cards);
     Count();
+    renderPanier();
     
 }
 
@@ -101,4 +99,4 @@ export function AjouterProducts(products){
 }
 
 
- 
+
