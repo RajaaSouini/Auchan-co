@@ -7,9 +7,9 @@ export function renderProduct(list){
     container.innerHTML = list.map(produit =>            
         
          {
-            return `<article id="${produit.id}" class="p-4 w-96  border border-[#096909] rounded-xl card">
+            return `<article id="${produit.id}" class="p-4 w-96  border border-[#096909] rounded-xl card" draggable="true">
                 <div class="flex flex-col items-center ">
-                    <img src="${produit.image}" alt="chaussure blue nike" class="w-full rounded-xl  h-96 object-cover">
+                    <img src="${produit.image}" alt="chaussure blue nike" class="w-full rounded-xl  h-96 object-cover" draggable="false">
                 </div>
                 <div class="bg-white  justify-between  p-2">
                     <div class="font-mono  flex flex-col gap-2">
