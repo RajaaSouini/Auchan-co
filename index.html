@@ -82,18 +82,20 @@
             <button data-category="Electronics & Gadgets" class="categ border-2 rounded-xl p-4 border-[#DBD5D5]">Electronics & Gadgets</button>
             <button data-category="Fashion & Apparel" class="categ border-2 rounded-xl p-4 border-[#DBD5D5]">Fashion & Apparel</button>
             <button data-category="Home & Kitchen" class="categ border-2 rounded-xl p-4 border-[#DBD5D5]">Home & Kitchen</button>
-            <button data-category="Health & Fitness" class="categ border-2 rounded-xl p-4 border-[#DBD5D5]">Health & Fitness</button>
+            <button class="voir-panier border-2 rounded-xl p-4 border-[#DBD5D5]">Voir panier</button>
         </div>
         <div class="flex flex-col md:flex-row md:items-start gap-8">
             <section class="  flex flex-1 min-w-0 flex-col gap-8 md:flex-row md:flex-wrap md:justify-around md:items-start   containerProducts">
             
             </section>
-            <aside class="shrink-0 md:w-96 border-2 border-[#E36A20] p-4 rounded-xl panier h-fit md:sticky md:items-start md:content-start md:top-4">
+            <!--shrink-0 md:w-96 border-2 border-[#E36A20] p-4 rounded-xl panier h-fit md:sticky md:items-start md:content-start md:top-4  -->
+            <aside class=" md:w-96  border-2 border-[#E36A20] p-4  panier  md:top-4 absolute top-0 right-0 bg-white ">
                 <div>
                     <p class="font-mono ">Votre Panier (<span class="cartCount">0</span>)</p>
                 </div>
-                <div class="panierItems"></div>
+                <div class="panierItems flex flex-col gap-4"></div>
                 <p>Total : (<span class="panierTotal">0</span>)</p>
+                <button class="suppanier ">Fermer panier</button>
                 
             </aside>
         </div>

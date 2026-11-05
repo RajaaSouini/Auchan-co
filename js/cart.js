@@ -1,12 +1,12 @@
 import { EnregistrerCard , ReadCards } from "./storage.js";
 //popup panier
 
-/*
+
 export function modal(){
 
 const panier = document.querySelector('.panier');
 
-const voirpanier = document.querySelector('.voirpanier');
+const voirpanier = document.querySelector('.voir-panier');
 const suppanier = document.querySelector('.suppanier');
 
     voirpanier.addEventListener('click' , function(){
@@ -16,7 +16,8 @@ const suppanier = document.querySelector('.suppanier');
 suppanier.addEventListener('click' , function(){
     panier.classList.add('hidden');
 })
-} */
+} 
+
 export function Count(){
     const somme = document.querySelector('.cartCount');
     if(!somme) return ;
@@ -38,7 +39,7 @@ export function renderPanier(){
     }
     liste.innerHTML =cards.map(produit => 
         
-         {
+        {
             return `<article data-id="${produit.id}" class="p-4 w-full  border border-[#096909] rounded-xl">
                 
                 <div class="bg-white  justify-between  p-2 w-">
@@ -54,11 +55,11 @@ export function renderPanier(){
                         <button class="bg-red-600 p-2 rounded-xl text-white  font-mono supprimer w-full">Supprimer</button>    
                 </div>
             </article>`
-         }).join("");
+        }).join("");
 
-         if(total){
+        if(total){
             total.textContent = cards.reduce((s ,i) => s+ i.priceCents * i.quantity , 0);
-         }
+        }
 }
 
 
@@ -96,6 +97,25 @@ export function AjouterProducts(products){
         const produit = products.find((p) => p.id == id);
         if(produit) ajouterPanier(produit);
     })
+}
+
+export function SupprimerDuPanier(){
+    const liste = document.querySelector('.panierItems');
+    if(!liste) return ;
+
+    liste.addEventListener('click' , (e)=>{
+        const bouttonSupprimer = e.target.closest('.supprimer');
+        if(!bouttonSupprimer) return ;
+
+        const id = bouttonSupprimer.closest('article').dataset.id ;
+        const cards = (ReadCards() || []).filter(item => item.id != id);
+
+        EnregistrerCard(cards);
+        Count();
+        renderPanier();
+    })
+
+
 }
 
 
