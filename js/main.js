@@ -1,9 +1,10 @@
-import afficherProducts from "./ui.js";
+import afficherProducts, { productsAll } from "./ui.js";
 import { SearchProduct, category } from "./products.js";
 import { modal } from "./cart.js";
 import { renderPanier , Count } from "./cart.js";
 import { SupprimerDuPanier } from "./cart.js";
 import { QuantityBouttons } from "./cart.js";
+import { dragDrop } from "./dragDrop.js";
 await afficherProducts();
 SearchProduct();
 document.querySelector('#search').addEventListener('input', SearchProduct);
@@ -34,6 +35,7 @@ Count();
 SupprimerDuPanier();
 
 QuantityBouttons();
+dragDrop(productsAll);
 
 
 
