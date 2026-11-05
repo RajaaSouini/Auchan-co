@@ -1,5 +1,6 @@
 import afficherProducts from "./ui.js";
 import { SearchProduct, category } from "./products.js";
+//import { modal } from "./cart.js";
 
 
 await afficherProducts();
@@ -24,5 +25,11 @@ document.querySelectorAll('.categ').forEach((btn)=>{
 
 document.querySelector("#priceSearchMin").addEventListener('input' , SearchProduct);
 document.querySelector("#priceSearchMax").addEventListener('input' , SearchProduct);
+
+
+//modal();
+
+
+
 
 
