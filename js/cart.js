@@ -118,5 +118,32 @@ export function SupprimerDuPanier(){
 
 }
 
+export function QuantityBouttons(){
+    const liste = document.querySelector('.panierItems');
+    if(!liste) return ;
+
+    liste.addEventListener('click', (e) =>{
+        const plus = e.target.closest('.plus');
+        const moins = e.target.closest('.moins');
+        if(!plus && !moins) return ;
+
+        const id = e.target.closest('article').dataset.id ;
+        const cards = ReadCards() || [];
+
+        const element = cards.find(el => el.id == id);
+        if(!element) return ;
+
+        if(plus) element.quantity += 1 ;
+        if(moins) element.quantity -= 1 ;
+
+        const gestionMoins = cards.filter(elem => elem.quantity > 0);
+
+        EnregistrerCard(gestionMoins);
+        Count();
+        renderPanier();
+
+    })
+}
+
 
 

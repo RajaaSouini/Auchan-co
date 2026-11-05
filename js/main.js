@@ -3,7 +3,7 @@ import { SearchProduct, category } from "./products.js";
 import { modal } from "./cart.js";
 import { renderPanier , Count } from "./cart.js";
 import { SupprimerDuPanier } from "./cart.js";
-
+import { QuantityBouttons } from "./cart.js";
 await afficherProducts();
 SearchProduct();
 document.querySelector('#search').addEventListener('input', SearchProduct);
@@ -33,7 +33,7 @@ renderPanier();
 Count();
 SupprimerDuPanier();
 
-
+QuantityBouttons();
 
 
 
