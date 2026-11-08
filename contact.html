@@ -28,9 +28,9 @@
                 <p>Disponible 24/24</p>
             </div>
         </section>
-        <section class="bg-white p-32 rounded-xl">
+        <section class=" p-6 md:p-12 rounded-xl">
             <p id="feedback" class="hidden p-3 rounded-xl mb-4" ></p>
-        <form action="" id="contactForm" class="flex flex-col gap-4">
+        <form novalidate action="" id="contactForm" class="flex flex-col gap-4">
             <div>
                 <label for="nom" class="font-bold">Nom complet</label>
                 <input type="text" id="nom" class="w-full border border-[#096909] rounded-xl p-2" name="nom">
@@ -38,16 +38,16 @@
             </div>
             <div>
                 <label for="email" class="font-bold">Email</label>
-                <input type="email" name="email" class="w-full border border-[#096909] rounded-xl p-2">
+                <input type="email" id="email" name="email" class="w-full border border-[#096909] rounded-xl p-2">
                 <p class="erreur text-red-600 text-sm mt-1"></p>
             </div>
             <div>
                 <label for="telephone">Téléphone</label>
-                <input type="telephone" name="telephone" type="tel" placeholder="06******** ou +212 6********" class="w-full border border-[#096909] rounded-xl p-2">
+                <input  name="telephone" id="telephone" type="tel" placeholder="06******** ou +212 6********" class="w-full border border-[#096909] rounded-xl p-2">
                 <p class="erreur text-red-600 text-sm mt-1"></p>
             </div>
             <div>
-                <label for="">Sujet</label>
+                <label for="sujet">Sujet</label>
                 <input id="sujet" name="sujet" type="text" class="w-full border-[#096909] border rounded-xl p-2">
                 <p class="erreur text-red-600 text-sm mt-1"></p>
             </div>
@@ -56,7 +56,7 @@
                 <textarea id="message" name="message" rows="5"  class="w-full border border-[#096909] rounded-xl p-2"></textarea>
                 <p class="erreur text-red-600 text-sm mt-1"></p>
             </div>
-            <div class="flex flex-col sm:flex-rox gap-2">
+            <div class="flex flex-col sm:flex-row gap-2">
                 <button type="submit" class="bg-[#9AD996] p-2 rounded-xl flex-1" >Envoyer</button>
                 <button type="button" id="btnTest" class="border border-[#E36A20] p-2 rounded-xl flex-1">Génerer des données de test</button>
             </div>
