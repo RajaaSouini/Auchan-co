@@ -75,6 +75,7 @@ export function ajouterPanier(produit){
             id : produit.id ,
             name : produit.name ,
             image : produit.image ,
+            taille,
             priceCents : produit.priceCents ,
             quantity : 1
         });
@@ -143,6 +144,17 @@ export function QuantityBouttons(){
         renderPanier();
 
     })
+}
+
+
+export const tailles = { S :0 , M : 5 , L : 10 , XL : 20 };
+const categ = 'Fashion & Apparel';
+
+export const estVetement = (prod) => categ.includes(prod.category);
+
+export const prixFinal = (prix , tail = 'S') => {
+    const pourcentage = tailles[tail] ;
+    return prix + (prix * pourcentage / 100);
 }
 
 

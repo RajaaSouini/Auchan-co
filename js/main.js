@@ -1,10 +1,12 @@
-import afficherProducts, { productsAll } from "./ui.js";
+import afficherProducts, { productsAll, VueList } from "./ui.js";
 import { SearchProduct, category } from "./products.js";
 import { modal } from "./cart.js";
 import { renderPanier , Count } from "./cart.js";
 import { SupprimerDuPanier } from "./cart.js";
 import { QuantityBouttons } from "./cart.js";
 import { dragDrop } from "./dragDrop.js";
+
+
 await afficherProducts();
 SearchProduct();
 document.querySelector('#search').addEventListener('input', SearchProduct);
@@ -37,5 +39,8 @@ SupprimerDuPanier();
 QuantityBouttons();
 dragDrop(productsAll);
 
+
+document.querySelector('.vueList').addEventListener('click', () => VueList('liste'));
+document.querySelector('.vueGri').addEventListener('click', () => VueList('grille'));
 
 

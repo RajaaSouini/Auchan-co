@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/dist/output.css">
+</head>
+<body>
+    <main class="m-8 md:flex md:gap-12 md:justify-around p-12 md:items-center bg-green-100 rounded-xl">
+        
+
+        <section class="flex flex-col gap-6 mb-8 md:w-72 md:shrink-0 font-mono bg-">
+            <div>
+                <p class="text-[#096909] font-bold">Parlons-en</p>
+                <h2 class="text-2xl font-bold">Nos coordonnées</h2>
+            </div>
+            <div class="border border-[#096909] rounded-xl p-4">
+                <h3 class="font-bold">Téléphone</h3>
+                <p>+212 697708726</p>
+            </div>
+            <div class="border border-[#096909] rounded-xl p-4">
+                <h3 class="font-bold">Email</h3>
+                <p>contact@gmail.com</p>
+            </div>
+            <div class="border border-[#096909] rounded-xl p-4">
+                <h3 class="font-bold">Horaires</h3>
+                <p>Disponible 24/24</p>
+            </div>
+        </section>
+        <section class="bg-white p-32 rounded-xl">
+            <p id="feedback" class="hidden p-3 rounded-xl mb-4" ></p>
+        <form action="" id="contactForm" class="flex flex-col gap-4">
+            <div>
+                <label for="nom" class="font-bold">Nom complet</label>
+                <input type="text" id="nom" class="w-full border border-[#096909] rounded-xl p-2" name="nom">
+                <p class="erreur text-red-600 text-sm mt-1"></p>
+            </div>
+            <div>
+                <label for="email" class="font-bold">Email</label>
+                <input type="email" name="email" class="w-full border border-[#096909] rounded-xl p-2">
+                <p class="erreur text-red-600 text-sm mt-1"></p>
+            </div>
+            <div>
+                <label for="telephone">Téléphone</label>
+                <input type="telephone" name="telephone" type="tel" placeholder="06******** ou +212 6********" class="w-full border border-[#096909] rounded-xl p-2">
+                <p class="erreur text-red-600 text-sm mt-1"></p>
+            </div>
+            <div>
+                <label for="">Sujet</label>
+                <input id="sujet" name="sujet" type="text" class="w-full border-[#096909] border rounded-xl p-2">
+                <p class="erreur text-red-600 text-sm mt-1"></p>
+            </div>
+            <div>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5"  class="w-full border border-[#096909] rounded-xl p-2"></textarea>
+                <p class="erreur text-red-600 text-sm mt-1"></p>
+            </div>
+            <div class="flex flex-col sm:flex-rox gap-2">
+                <button type="submit" class="bg-[#9AD996] p-2 rounded-xl flex-1" >Envoyer</button>
+                <button type="button" id="btnTest" class="border border-[#E36A20] p-2 rounded-xl flex-1">Génerer des données de test</button>
+            </div>
+        </form>
+        </section>
+    </main>
+    <script type="module" src="./js/contact.js"></script>
+</body>
+</html>
