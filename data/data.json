@@ -1,0 +1,951 @@
+[
+  {
+    "id": "1",
+    "image": "./assets/images/cremehydr.jpg",
+    "name": "Crème Hydratante",
+    "rating": {
+      "stars": 4.7,
+      "count": 120
+    },
+    "priceCents": 199,
+    "category": "Beauty & Personal Care",
+    "subCategory": "Skincare",
+    "keywords": [
+      "moisturizer",
+      "hydration",
+      "skincare",
+      "beauty"
+    ],
+    "description": "Hydrate et illumine la peau."
+  },
+  {
+    "id": "2",
+    "image": "/assets/images/shampoing.jpg",
+    "name": "Shampoing Antipelliculaire",
+    "rating": {
+      "stars": 4.5,
+      "count": 85
+    },
+    "priceCents": 69,
+    "category": "Beauty & Personal Care",
+    "subCategory": "Hair Care",
+    "keywords": [
+      "shampoo",
+      "hair care",
+      "anti-dandruff",
+      "cleanse"
+    ],
+    "description": "Apaise le cuir chevelu."
+  },
+  {
+    "id": "3",
+    "image": "/assets/images/fondTeint.jpg",
+    "name": "Fond de Teint Mat",
+    "rating": {
+      "stars": 4.6,
+      "count": 98
+    },
+    "priceCents": 149,
+    "category": "Beauty & Personal Care",
+    "subCategory": "Makeup",
+    "keywords": [
+      "foundation",
+      "makeup",
+      "beauty",
+      "matte"
+    ],
+    "description": "Fini mat longue durée."
+  },
+  {
+    "id": "4",
+    "image": "/assets/images/parfum.jpg",
+    "name": "Parfum Floral",
+    "rating": {
+      "stars": 4.8,
+      "count": 160
+    },
+    "priceCents": 349,
+    "category": "Beauty & Personal Care",
+    "subCategory": "Fragrances",
+    "keywords": [
+      "perfume",
+      "fragrance",
+      "scent",
+      "floral"
+    ],
+    "description": "Un sillage floral élégant."
+  },
+  {
+    "id": "5",
+    "image": "/assets/images/cofretRasage.jpg",
+    "name": "Coffret de Rasage",
+    "rating": {
+      "stars": 4.4,
+      "count": 70
+    },
+    "priceCents": 179,
+    "category": "Beauty & Personal Care",
+    "subCategory": "Grooming",
+    "keywords": [
+      "shaving kit",
+      "grooming",
+      "men",
+      "razor"
+    ],
+    "description": "Tout pour un rasage net."
+  },
+  {
+    "id": "6",
+    "image": "/assets/images/gelDouche.jpg",
+    "name": "Gel Douche Nourrissant",
+    "rating": {
+      "stars": 4.7,
+      "count": 140
+    },
+    "priceCents": 45,
+    "category": "Beauty & Personal Care",
+    "subCategory": "Bath & Body",
+    "keywords": [
+      "body wash",
+      "bath",
+      "care",
+      "nourishing"
+    ],
+    "description": "Nettoie et adoucit la peau."
+  },
+  {
+    "id": "7",
+    "image": "/assets/images/vernis.jpg",
+    "name": "Vernis Brillant",
+    "rating": {
+      "stars": 4.5,
+      "count": 65
+    },
+    "priceCents": 39,
+    "category": "Beauty & Personal Care",
+    "subCategory": "Nail Care",
+    "keywords": [
+      "nail polish",
+      "nail care",
+      "beauty",
+      "glossy"
+    ],
+    "description": "Couleur vive, effet gel."
+  },
+  {
+    "id": "8",
+    "image": "/assets/images/apresChampoing.jpg",
+    "name": "Après-Shampoing",
+    "rating": {
+      "stars": 4.6,
+      "count": 110
+    },
+    "priceCents": 65,
+    "category": "Beauty & Personal Care",
+    "subCategory": "Hair Care",
+    "keywords": [
+      "conditioner",
+      "hair care",
+      "moisturizing",
+      "smooth"
+    ],
+    "description": "Cheveux doux et brillants."
+  },
+  {
+    "id": "9",
+    "image": "/assets/images/rasoirTripleLame.jpg",
+    "name": "Rasoir Triple Lame",
+    "rating": {
+      "stars": 4.3,
+      "count": 55
+    },
+    "priceCents": 49,
+    "category": "Beauty & Personal Care",
+    "subCategory": "Men's Grooming Products",
+    "keywords": [
+      "razor",
+      "grooming",
+      "men",
+      "shaving"
+    ],
+    "description": "Rasage précis et confortable."
+  },
+  {
+    "id": "10",
+    "image": "/assets/images/vitamineC.jpg",
+    "name": "Vitamine C",
+    "rating": {
+      "stars": 4.7,
+      "count": 200
+    },
+    "priceCents": 89,
+    "category": "Beauty & Personal Care",
+    "subCategory": "Health & Wellness Products",
+    "keywords": [
+      "vitamin c",
+      "supplement",
+      "wellness",
+      "health"
+    ],
+    "description": "Booste l'immunité."
+  },
+  {
+    "id": "11",
+    "image": "/assets/images/casqueBluetott.jpg",
+    "name": "Casque Bluetooth",
+    "rating": {
+      "stars": 4.7,
+      "count": 230
+    },
+    "priceCents": 399,
+    "category": "Electronics & Gadgets",
+    "subCategory": "Audio",
+    "keywords": [
+      "headphones",
+      "bluetooth",
+      "audio",
+      "electronics"
+    ],
+    "description": "Son clair, confort total."
+  },
+  {
+    "id": "12",
+    "image": "/assets/images/smartphone.jpg",
+    "name": "Smartphone 128 Go",
+    "rating": {
+      "stars": 4.6,
+      "count": 320
+    },
+    "priceCents": 2499,
+    "category": "Electronics & Gadgets",
+    "subCategory": "Mobile Phones",
+    "keywords": [
+      "smartphone",
+      "mobile",
+      "gadgets"
+    ],
+    "description": "Rapide et fluide."
+  },
+  {
+    "id": "13",
+    "image": "/assets/images/TV.jpg",
+    "name": "TV 4K 55 Pouces",
+    "rating": {
+      "stars": 4.8,
+      "count": 190
+    },
+    "priceCents": 4999,
+    "category": "Electronics & Gadgets",
+    "subCategory": "Televisions",
+    "keywords": [
+      "television",
+      "4K",
+      "electronics",
+      "gadgets"
+    ],
+    "description": "Images nettes en Ultra HD."
+  },
+  {
+    "id": "14",
+    "image": "/assets/images/pcGamer.jpg",
+    "name": "PC Portable Gamer",
+    "rating": {
+      "stars": 4.9,
+      "count": 210
+    },
+    "priceCents": 8999,
+    "category": "Electronics & Gadgets",
+    "subCategory": "Computers",
+    "keywords": [
+      "laptop",
+      "gaming",
+      "computers",
+      "electronics"
+    ],
+    "description": "16 Go RAM, SSD 512 Go."
+  },
+  {
+    "id": "15",
+    "image": "/assets/images/montre.jpg",
+    "name": "Montre Connectée",
+    "rating": {
+      "stars": 4.5,
+      "count": 130
+    },
+    "priceCents": 449,
+    "category": "Electronics & Gadgets",
+    "subCategory": "Wearables",
+    "keywords": [
+      "smartwatch",
+      "fitness",
+      "wearables",
+      "electronics"
+    ],
+    "description": "Suivi santé et notifications."
+  },
+  {
+    "id": "16",
+    "image": "/assets/images/tablette.jpg",
+    "name": "Tablette 10.1\"",
+    "rating": {
+      "stars": 4.3,
+      "count": 95
+    },
+    "priceCents": 1299,
+    "category": "Electronics & Gadgets",
+    "subCategory": "Tablets",
+    "keywords": [
+      "tablet",
+      "android",
+      "gadgets",
+      "electronics"
+    ],
+    "description": "Grand écran, portable."
+  },
+  {
+    "id": "17",
+    "image": "/assets/images/enceBlu.jpg",
+    "name": "Enceinte Bluetooth",
+    "rating": {
+      "stars": 4.7,
+      "count": 180
+    },
+    "priceCents": 299,
+    "category": "Electronics & Gadgets",
+    "subCategory": "Audio",
+    "keywords": [
+      "bluetooth",
+      "speaker",
+      "audio",
+      "gadgets"
+    ],
+    "description": "Petite et puissante."
+  },
+  {
+    "id": "18",
+    "image": "/assets/images/camera.jpg",
+    "name": "Appareil Photo Reflex",
+    "rating": {
+      "stars": 4.8,
+      "count": 115
+    },
+    "priceCents": 6499,
+    "category": "Electronics & Gadgets",
+    "subCategory": "Cameras",
+    "keywords": [
+      "camera",
+      "dslr",
+      "gadgets",
+      "electronics"
+    ],
+    "description": "24MP, photos pro."
+  },
+  {
+    "id": "19",
+    "image": "/assets/images/cleusb.jpg",
+    "name": "Clé USB 64 Go",
+    "rating": {
+      "stars": 4.2,
+      "count": 75
+    },
+    "priceCents": 69,
+    "category": "Electronics & Gadgets",
+    "subCategory": "Storage",
+    "keywords": [
+      "usb",
+      "storage",
+      "gadgets",
+      "electronics"
+    ],
+    "description": "Stockage rapide et compact."
+  },
+  {
+    "id": "20",
+    "image": "/assets/images/cam4k.jpg",
+    "name": "Caméra Action 4K",
+    "rating": {
+      "stars": 4.6,
+      "count": 90
+    },
+    "priceCents": 1099,
+    "category": "Electronics & Gadgets",
+    "subCategory": "Cameras",
+    "keywords": [
+      "action camera",
+      "4K",
+      "gadgets",
+      "electronics"
+    ],
+    "description": "Filme tes aventures en 4K."
+  },
+  {
+    "id": "21",
+    "image": "/assets/images/vestejean.jpg",
+    "name": "Veste en Jean",
+    "rating": {
+      "stars": 4.5,
+      "count": 150
+    },
+    "priceCents": 349,
+    "category": "Fashion & Apparel",
+    "subCategory": "Men's Clothing",
+    "keywords": [
+      "denim jacket",
+      "men's fashion",
+      "clothing",
+      "outerwear"
+    ],
+    "description": "Classique et intemporelle."
+  },
+  {
+    "id": "22",
+    "image": "/assets/images/robeFleuri.jpg",
+    "name": "Robe Longue Fleurie",
+    "rating": {
+      "stars": 4.8,
+      "count": 95
+    },
+    "priceCents": 399,
+    "category": "Fashion & Apparel",
+    "subCategory": "Women's Clothing",
+    "keywords": [
+      "floral dress",
+      "women's fashion",
+      "clothing",
+      "dress"
+    ],
+    "description": "Légère et élégante."
+  },
+  {
+    "id": "23",
+    "image": "/assets/images/basketCasual.jpg",
+    "name": "Baskets Casual",
+    "rating": {
+      "stars": 4.7,
+      "count": 210
+    },
+    "priceCents": 449,
+    "category": "Fashion & Apparel",
+    "subCategory": "Footwear",
+    "keywords": [
+      "sneakers",
+      "footwear",
+      "shoes",
+      "casual"
+    ],
+    "description": "Confort et style."
+  },
+  {
+    "id": "24",
+    "image": "/assets/images/saccuir.jpg",
+    "name": "Sac Cabas en Cuir",
+    "rating": {
+      "stars": 4.6,
+      "count": 130
+    },
+    "priceCents": 549,
+    "category": "Fashion & Apparel",
+    "subCategory": "Accessories",
+    "keywords": [
+      "leather bag",
+      "tote",
+      "accessories",
+      "fashion"
+    ],
+    "description": "Spacieux, cuir véritable."
+  },
+  {
+    "id": "25",
+    "image": "/assets/images/lunette.jpg",
+    "name": "Lunettes Polarisées",
+    "rating": {
+      "stars": 4.4,
+      "count": 90
+    },
+    "priceCents": 199,
+    "category": "Fashion & Apparel",
+    "subCategory": "Accessories",
+    "keywords": [
+      "sunglasses",
+      "polarized",
+      "accessories",
+      "fashion"
+    ],
+    "description": "Protection UV, look moderne."
+  },
+  {
+    "id": "26",
+    "image": "/assets/images/chemiseslas.jpg",
+    "name": "Chemise Classique",
+    "rating": {
+      "stars": 4.3,
+      "count": 85
+    },
+    "priceCents": 279,
+    "category": "Fashion & Apparel",
+    "subCategory": "Men's Clothing",
+    "keywords": [
+      "formal shirt",
+      "men's fashion",
+      "clothing",
+      "shirt"
+    ],
+    "description": "Coupe nette pour le bureau."
+  },
+  {
+    "id": "27",
+    "image": "/assets/images/escarpinTalon.jpg",
+    "name": "Escarpins à Talons",
+    "rating": {
+      "stars": 4.6,
+      "count": 105
+    },
+    "priceCents": 379,
+    "category": "Fashion & Apparel",
+    "subCategory": "Footwear",
+    "keywords": [
+      "heels",
+      "women's footwear",
+      "fashion",
+      "shoes"
+    ],
+    "description": "Chics pour vos soirées."
+  },
+  {
+    "id": "28",
+    "image": "/assets/images/tshirtImpr.jpg",
+    "name": "T-shirt Imprimé",
+    "rating": {
+      "stars": 4.5,
+      "count": 200
+    },
+    "priceCents": 129,
+    "category": "Fashion & Apparel",
+    "subCategory": "Men's Clothing",
+    "keywords": [
+      "t-shirt",
+      "graphic print",
+      "men's fashion",
+      "clothing"
+    ],
+    "description": "Coton doux, coupe relax."
+  },
+  {
+    "id": "29",
+    "image": "/assets/images/sacmain.jpg",
+    "name": "Sac à Main Femme",
+    "rating": {
+      "stars": 4.9,
+      "count": 150
+    },
+    "priceCents": 699,
+    "category": "Fashion & Apparel",
+    "subCategory": "Accessories",
+    "keywords": [
+      "handbag",
+      "designer",
+      "fashion",
+      "accessories"
+    ],
+    "description": "Élégance et finitions soignées."
+  },
+  {
+    "id": "30",
+    "image": "/assets/images/tongs.jpg",
+    "name": "Tongs Confort",
+    "rating": {
+      "stars": 4.2,
+      "count": 70
+    },
+    "priceCents": 69,
+    "category": "Fashion & Apparel",
+    "subCategory": "Footwear",
+    "keywords": [
+      "flip-flops",
+      "slippers",
+      "footwear",
+      "casual"
+    ],
+    "description": "Légères pour plage et piscine."
+  },
+  {
+    "id": "31",
+    "image": "/assets/images/canape.jpg",
+    "name": "Canapé Cuir Moderne",
+    "rating": {
+      "stars": 4.8,
+      "count": 220
+    },
+    "priceCents": 8999,
+    "category": "Home & Kitchen",
+    "subCategory": "Furniture",
+    "keywords": [
+      "sofa",
+      "furniture",
+      "living room",
+      "home decor"
+    ],
+    "description": "Confort et design épuré."
+  },
+  {
+    "id": "32",
+    "image": "/assets/images/refre.jpg",
+    "name": "Réfrigérateur Inox",
+    "rating": {
+      "stars": 4.6,
+      "count": 150
+    },
+    "priceCents": 6999,
+    "category": "Home & Kitchen",
+    "subCategory": "Kitchen Appliances",
+    "keywords": [
+      "refrigerator",
+      "appliance",
+      "kitchen",
+      "stainless steel"
+    ],
+    "description": "Grand volume, économe."
+  },
+  {
+    "id": "33",
+    "image": "/assets/images/aspirateur.jpg",
+    "name": "Aspirateur Sans Fil",
+    "rating": {
+      "stars": 4.4,
+      "count": 180
+    },
+    "priceCents": 1199,
+    "category": "Home & Kitchen",
+    "subCategory": "Home Appliances",
+    "keywords": [
+      "vacuum cleaner",
+      "cordless",
+      "cleaning",
+      "home"
+    ],
+    "description": "Léger et puissant."
+  },
+  {
+    "id": "34",
+    "image": "/assets/images/batcui.jpg",
+    "name": "Batterie de Cuisine",
+    "rating": {
+      "stars": 4.7,
+      "count": 95
+    },
+    "priceCents": 1499,
+    "category": "Home & Kitchen",
+    "subCategory": "Cookware & Bakeware",
+    "keywords": [
+      "cookware",
+      "non-stick",
+      "kitchen",
+      "bakeware"
+    ],
+    "description": "Antiadhésive, nettoyage facile."
+  },
+  {
+    "id": "35",
+    "image": "/assets/images/service.jpg",
+    "name": "Service de Table",
+    "rating": {
+      "stars": 4.9,
+      "count": 70
+    },
+    "priceCents": 899,
+    "category": "Home & Kitchen",
+    "subCategory": "Dinnerware & Serveware",
+    "keywords": [
+      "dinnerware",
+      "porcelain",
+      "kitchen",
+      "tableware"
+    ],
+    "description": "Porcelaine raffinée."
+  },
+  {
+    "id": "36",
+    "image": "/assets/images/matelas.jpg",
+    "name": "Matelas Mémoire de Forme",
+    "rating": {
+      "stars": 4.8,
+      "count": 140
+    },
+    "priceCents": 3999,
+    "category": "Home & Kitchen",
+    "subCategory": "Bedding",
+    "keywords": [
+      "mattress",
+      "memory foam",
+      "bedding",
+      "sleep"
+    ],
+    "description": "Soutien parfait, nuits sereines."
+  },
+  {
+    "id": "37",
+    "image": "/assets/images/lampetable.jpg",
+    "name": "Lampe de Table",
+    "rating": {
+      "stars": 4.5,
+      "count": 85
+    },
+    "priceCents": 279,
+    "category": "Home & Kitchen",
+    "subCategory": "Lighting",
+    "keywords": [
+      "lamp",
+      "lighting",
+      "home decor",
+      "table lamp"
+    ],
+    "description": "Ambiance chaleureuse."
+  },
+  {
+    "id": "38",
+    "image": "/assets/images/tapis.jpg",
+    "name": "Tapis Tissé Main",
+    "rating": {
+      "stars": 4.6,
+      "count": 110
+    },
+    "priceCents": 1099,
+    "category": "Home & Kitchen",
+    "subCategory": "Home Decor",
+    "keywords": [
+      "rug",
+      "home decor",
+      "woven",
+      "area rug"
+    ],
+    "description": "Motifs artisanaux, doux."
+  },
+  {
+    "id": "39",
+    "image": "/assets/images/boite.jpg",
+    "name": "Boîtes de Rangement x4",
+    "rating": {
+      "stars": 4.3,
+      "count": 55
+    },
+    "priceCents": 149,
+    "category": "Home & Kitchen",
+    "subCategory": "Storage & Organization",
+    "keywords": [
+      "storage",
+      "organization",
+      "home",
+      "plastic boxes"
+    ],
+    "description": "Organise ta maison."
+  },
+  {
+    "id": "40",
+    "image": "/assets/images/kit.jpg",
+    "name": "Kit Nettoyage Écolo",
+    "rating": {
+      "stars": 4.8,
+      "count": 120
+    },
+    "priceCents": 119,
+    "category": "Home & Kitchen",
+    "subCategory": "Cleaning Supplies",
+    "keywords": [
+      "cleaning supplies",
+      "eco-friendly",
+      "home",
+      "cleaning kit"
+    ],
+    "description": "Efficace et écologique."
+  },
+  {
+    "id": "41",
+    "image": "/assets/images/tapis.jpg",
+    "name": "Tapis de Course Pliable",
+    "rating": {
+      "stars": 4.7,
+      "count": 320
+    },
+    "priceCents": 3499,
+    "category": "Health & Fitness",
+    "subCategory": "Fitness Equipment",
+    "keywords": [
+      "treadmill",
+      "fitness",
+      "exercise",
+      "home gym"
+    ],
+    "description": "Cardio à la maison."
+  },
+  {
+    "id": "42",
+    "image": "/assets/images/alter.jpg",
+    "name": "Haltères Réglables 20 kg",
+    "rating": {
+      "stars": 4.5,
+      "count": 260
+    },
+    "priceCents": 599,
+    "category": "Health & Fitness",
+    "subCategory": "Fitness Equipment",
+    "keywords": [
+      "dumbbells",
+      "weights",
+      "fitness",
+      "strength training"
+    ],
+    "description": "Poids ajustable, polyvalent."
+  },
+  {
+    "id": "43",
+    "image": "/assets/images/whey.jpg",
+    "name": "Whey Protéine 2 kg",
+    "rating": {
+      "stars": 4.6,
+      "count": 180
+    },
+    "priceCents": 449,
+    "category": "Health & Fitness",
+    "subCategory": "Sports Nutrition",
+    "keywords": [
+      "protein",
+      "nutrition",
+      "supplement",
+      "sports"
+    ],
+    "description": "Récupération musculaire."
+  },
+  {
+    "id": "44",
+    "image": "/assets/images/tension.jpg",
+    "name": "Tensiomètre Digital",
+    "rating": {
+      "stars": 4.8,
+      "count": 210
+    },
+    "priceCents": 299,
+    "category": "Health & Fitness",
+    "subCategory": "Health Monitors",
+    "keywords": [
+      "blood pressure",
+      "monitor",
+      "health",
+      "medical"
+    ],
+    "description": "Mesure fiable à domicile."
+  },
+  {
+    "id": "45",
+    "image": "/assets/images/secour.jpg",
+    "name": "Trousse de Secours",
+    "rating": {
+      "stars": 4.9,
+      "count": 150
+    },
+    "priceCents": 129,
+    "category": "Health & Fitness",
+    "subCategory": "First Aid",
+    "keywords": [
+      "first aid",
+      "kit",
+      "medical",
+      "emergency"
+    ],
+    "description": "Compacte, toujours prête."
+  },
+  {
+    "id": "46",
+    "image": "/assets/images/gelHydr.jpg",
+    "name": "Gel Hydroalcoolique 500 ml",
+    "rating": {
+      "stars": 4.5,
+      "count": 90
+    },
+    "priceCents": 29,
+    "category": "Health & Fitness",
+    "subCategory": "Personal Health",
+    "keywords": [
+      "hand sanitizer",
+      "personal health",
+      "hygiene",
+      "sanitizer"
+    ],
+    "description": "Mains propres, partout."
+  },
+  {
+    "id": "47",
+    "image": "/assets/images/gant.jpg",
+    "name": "Gants de Musculation",
+    "rating": {
+      "stars": 4.4,
+      "count": 100
+    },
+    "priceCents": 79,
+    "category": "Health & Fitness",
+    "subCategory": "Sports Gear & Accessories",
+    "keywords": [
+      "gloves",
+      "workout",
+      "sports",
+      "fitness"
+    ],
+    "description": "Grip solide, mains protégées."
+  },
+  {
+    "id": "48",
+    "image": "/assets/images/term.jpg",
+    "name": "Thermomètre Infrarouge",
+    "rating": {
+      "stars": 4.7,
+      "count": 120
+    },
+    "priceCents": 149,
+    "category": "Health & Fitness",
+    "subCategory": "Health Monitors",
+    "keywords": [
+      "thermometer",
+      "digital",
+      "health",
+      "infrared"
+    ],
+    "description": "Mesure rapide sans contact."
+  },
+  {
+    "id": "49",
+    "image": "/assets/images/yoga.jpg",
+    "name": "Tapis de Yoga",
+    "rating": {
+      "stars": 4.6,
+      "count": 200
+    },
+    "priceCents": 149,
+    "category": "Health & Fitness",
+    "subCategory": "Yoga & Meditation Supplies",
+    "keywords": [
+      "yoga mat",
+      "fitness",
+      "yoga",
+      "exercise"
+    ],
+    "description": "Antidérapant et confortable."
+  },
+  {
+    "id": "50",
+    "image": "/assets/images/genou.jpg",
+    "name": "Genouillères Réglables",
+    "rating": {
+      "stars": 4.3,
+      "count": 70
+    },
+    "priceCents": 89,
+    "category": "Health & Fitness",
+    "subCategory": "Sports Gear & Accessories",
+    "keywords": [
+      "knee pads",
+      "sports",
+      "gear",
+      "fitness"
+    ],
+    "description": "Soutien et protection."
+  }
+]

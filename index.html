@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/dist/output.css">
+    <style>
+        .nav{
+            margin-top: 1rem;
+            text-align: center;
+        }
+        .nav button{
+            margin: 0 2px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <p class="font-mono text-white bg-black text-center p-2">Livraison offerte dès 50 dh</p>
+        <div class="md:p-4">
+            <div class="flex flex-row justify-around md:flex md:justify-between">
+                <img src="/assets/images/logo-blac.png" alt="logo-page-auchan" class="w-48 h-32 ">
+                <!--<button type="button" class="voirpanier"><img src="/assets/icons/panier.png" alt="icone-panier" class="size-10   "></button>-->
+                <button id="burger-btn" class="burger-menu flex flex-col gap-2">
+                    <span class="bar border-2 inline-block w-12"></span>
+                    <span class="bar border-2 inline-block w-12"></span>
+                    <span class="bar border-2 inline-block w-12"></span>
+                </button>
+            </div>
+            
+        </div>
+                  
+        <nav id="mobile-nav" class="hidden">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        </nav>
+        <div class="m-4 bg-black p-8 rounded-xl flex flex-col gap-8 relative">
+            <p class="text-[#00000] bg-white w-60 text-center rounded-xl my-4">Le frais simplement meilleur</p>
+            <div>
+                <p class="text-[#9AD996] font-mono font-bold">La sélection du moment</p>
+                <h1 class="text-white font-mono text-3xl font-bold mr-4">Les beaux jours sont dans votre panier</h1>
+            </div>
+            <p class="text-[#DBD5D5]">Des produits frais, locaux et de saison, choisis avec soin pour vous faire vraiment plaisir.</p>
+
+            <div class=" ">
+                <button class="bg-[#E36A20]  w-50 p-4 text-white rounded-xl">Découvrir la sélection</button>
+            </div>
+
+            <div class="bg-[#DBD5D5] w-30 rounded-l-lg text-center absolute bottom-0 right-0 ">
+                <p class="font-mono">Disponible 24/24</p>
+            </div>
+        </div>         
+    </header>
+    <main > 
+            <div class="m-8">
+                <p class="text-[#096909] font-mono font-bold">A ne pas manquer</p>
+                <h2 class="text-2xl font-mono font-bold">Nos pépites du moment</h2>
+                <div class="flex gap-2 my-8 items-center">
+                    <a href="/products.html">Voir tous les produits </a>
+                    <img src="./assets/icons/fleche-droite.png" alt="voirplus" class="size-8">
+                </div>
+                <div>
+                    <input id="search" type="text" placeholder="Chercher le produit" class="border rounded-xl text-center">
+                    <input id="priceSearchMin" type="number" placeholder="trier par prix min" class="border rounded-xl text-center" >
+                    <input id="priceSearchMax" type="number" placeholder="trier par prix max" class="border rounded-xl text-center" >
+                    <select name="" id="combien">
+                        <option value="5">5</option>
+                        <option value="8" selected>8</option>
+                        <option value="10">10</option>
+                        <option value="20">20</option>
+                    </select>
+                </div>
+        </div>
+        <div class="flex flex-wrap gap-4 p-8 font-bold">
+            <button data-category="all" class="categ border-2 rounded-xl p-4 border-[#DBD5D5]">Tout</button>
+            <button data-category="Beauty & Personal Care" class="categ border-2 rounded-xl p-4 border-[#DBD5D5]">Beauty & Personal Care</button>
+            <button data-category="Electronics & Gadgets" class="categ border-2 rounded-xl p-4 border-[#DBD5D5]">Electronics & Gadgets</button>
+            <button data-category="Fashion & Apparel" class="categ border-2 rounded-xl p-4 border-[#DBD5D5]">Fashion & Apparel</button>
+            <button data-category="Home & Kitchen" class="categ border-2 rounded-xl p-4 border-[#DBD5D5]">Home & Kitchen</button>
+            <button class="voir-panier border-2 rounded-xl p-4 border-[#DBD5D5]">Voir panier</button>
+            <button class="vueList border-2 rounded-xl p-4 border-[#DBD5D5]">vueList</button>
+            <button class="vueGri border-2 rounded-xl p-4 border-[#DBD5D5]">vuegrie</button>
+        </div>
+        <div class="flex flex-col md:flex-row md:items-start gap-8">
+            <section class="  flex flex-1 min-w-0 flex-col gap-8 md:flex-row md:flex-wrap md:justify-around md:items-start   containerProducts">
+            
+            </section>
+            <!--shrink-0 md:w-96 border-2 border-[#E36A20] p-4 rounded-xl panier h-fit md:sticky md:items-start md:content-start md:top-4  -->
+            <aside class=" md:w-96  border-2 border-[#E36A20] p-4  panier  md:top-4 absolute top-0 right-0 bg-white ">
+                <div>
+                    <p class="font-mono ">Votre Panier (<span class="cartCount">0</span>)</p>
+                </div>
+                <div class="panierItems flex flex-col gap-4"></div>
+                <p>Total : (<span class="panierTotal">0</span>)</p>
+                <button class="suppanier ">Fermer panier</button>
+                
+            </aside>
+        </div>
+
+        <div id="pagination" class="nav">
+            
+        </div>
+    </main>
+     
+    <footer class="bg-black flex flex-col gap-8 p-8 md:py-24  md:flex md:flex-row lg:justify-around">
+        <div class=" flex flex-col gap-4">
+            <img class="size-12" src="./assets/icons/horloge-24-heures.png" alt="">
+            <div class="text-white">
+                <h4 class="font-mono text-xl">Disponible 24 / 24</h4>
+                <p>Choisissez le créneau qui vous ressemble , le jour meme.</p>
+            </div>
+        </div>
+        <div class=" flex flex-col gap-4">
+            <img class="size-12" src="./assets/icons/nature.png" alt="">
+            <div class="text-white">
+                <h4 class="font-mono text-xl">Mieux manger</h4>
+                <p>Des produits de saisons , et +1200 autre produits.</p>
+            </div>
+        </div>
+        <div class=" flex flex-col gap-4">
+            <img class="size-12" src="./assets/icons/cercle.png" alt="">
+            <div class="text-white">
+                <h4 class="font-mono text-xl">Livraison</h4>
+                <p>Livraison partout , juste remplissez vos panier , et contacter nous.</p>
+            </div>
+        </div>
+    </footer>
+    <script type="module" src="./js/main.js" ></script>
+</body>
+</html>
