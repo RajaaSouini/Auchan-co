@@ -7,7 +7,7 @@ import { QuantityBouttons } from "./cart.js";
 import { dragDrop } from "./dragDrop.js";
 
 
-await afficherProducts();
+afficherProducts();
 SearchProduct();
 document.querySelector('#search').addEventListener('input', SearchProduct);
 
