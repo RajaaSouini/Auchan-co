@@ -3,10 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact | Auchan</title>
     <link rel="stylesheet" href="/dist/output.css">
 </head>
-<body>
+<body class="font-mono bg-white text-gray-900 min-h-screen flex flex-col">
+
+
+
+    <header>
+        <p class="font-mono text-white bg-black text-center p-2">Livraison offerte dès 50 dh</p>
+        <div class="md:p-4">
+            <div class="flex flex-row justify-around md:flex md:justify-between">
+                <img src="/assets/images/logo-blac.png" alt="logo-page-auchan" class="w-48 h-32 ">
+                <!--<button type="button" class="voirpanier"><img src="/assets/icons/panier.png" alt="icone-panier" class="size-10   "></button>-->
+               
+            </div>
+        </div>        
+    </header>
     <main class="m-8 md:flex md:gap-12 md:justify-around p-12 md:items-center bg-green-100 rounded-xl">
         
 
@@ -65,6 +78,29 @@
        
     </main>
      <button class="bg-green-100 p-2 m-8" ><a href="/index.html">Revenir à la page</a></button>
+     <footer class="bg-black flex flex-col gap-8 p-8 md:py-24  md:flex md:flex-row lg:justify-around">
+        <div class=" flex flex-col gap-4">
+            <img class="size-12" src="./assets/icons/horloge-24-heures.png" alt="">
+            <div class="text-white">
+                <h4 class="font-mono text-xl">Disponible 24 / 24</h4>
+                <p>Choisissez le créneau qui vous ressemble , le jour meme.</p>
+            </div>
+        </div>
+        <div class=" flex flex-col gap-4">
+            <img class="size-12" src="./assets/icons/nature.png" alt="">
+            <div class="text-white">
+                <h4 class="font-mono text-xl">Mieux manger</h4>
+                <p>Des produits de saisons , et +1200 autre produits.</p>
+            </div>
+        </div>
+        <div class=" flex flex-col gap-4">
+            <img class="size-12" src="./assets/icons/cercle.png" alt="">
+            <div class="text-white">
+                <h4 class="font-mono text-xl">Livraison</h4>
+                <p>Livraison partout , juste remplissez vos panier , et contacter nous.</p>
+            </div>
+        </div>
+    </footer>
     <script type="module" src="./js/contact.js"></script>
 </body>
 </html>
