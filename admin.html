@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/dist/output.css">
+</head>
+<body>
+    <header>
+        <p class="font-mono text-white bg-black text-center p-2">Livraison offerte dès 50 dh</p>
+        <nav class="md:p-4">
+            <div class="flex flex-row justify-around md:flex md:justify-between">
+                <img src="/assets/images/logo-blac.png" alt="logo-page-auchan" class="w-48 h-32 ">
+                <button><img src="/assets/icons/panier.png" alt="icone-panier" class="size-10   "></button>
+            </div>
+        </nav>        
+    </header>
+    <main class="m-4 md:m-8 flex flex-col gap-8 ">
+        <div >
+            <p class="text-[#096909] font-bold">Back-office</p>
+            <h1 class="text-2xl font-bold">Gestion des produits</h1>
+            <a href="/index.html" class="underline">Retour au catalogue</a>
+        </div>
+
+        <form action="" id="productForm" class="flex flex-col  gap-3 border-2 border-[#DBD5D5] rounded-xl p-4 md:p-6 max-w-4xl">
+            <h2 class="text-xl font-bold" >Produit</h2>
+            <input type="hidden" name="id">
+            <label for="name">Nom du produit</label>
+            <input type="text" name="name" class="border border-[#096909] rounded-xl p-2" >
+            <label for="category">Category</label>
+            <select name="category" id="" class="border border-[#096909] rounded-xl p-2" >
+                <option value="">Catégorie</option>
+                <option value="Beauty & Personal Care">Beauty & Personal Care</option>
+                <option value="Electronics & Gadgets">Electronics & Gadgets</option>
+                <option value="Fashion & Apparel">Fashion & Apparel</option>
+                <option value="Home & Kitchen">Home & Kitchen</option>
+            </select>
+            <label for="Prix">Prix du produit </label>
+            <input type="number" name="priceCents" class="border border-[#096909] rounded-xl p-2" >
+            <label for="image">Image du produit</label>
+            <input type="file" name="image" class="border border-[#096909] rounded-xl p-2" >
+            <label for="description">Description du produit</label>
+            <textarea name="description" class="border border-[#096909] rounded-xl p-2"  id=""></textarea>
+
+            <p id="erreur" class="text-red-600"></p>
+            <div class="flex pag-2 ">
+                <button id="btnSubmit" type="submit" class="bg-[#9AD996] p-2 rounded-xl flex-1">Ajouter le produit</button>
+                <button id="btnAnnuler" type="button" class="border border-[#E36A20] p-2 rounded-xl flex-1">Annuler</button>
+            </div>
+        </form>
+        <div>
+                <table class="w-full text-left border-collapse">
+                    <thead>
+                        <tr class="bg-[#096909] text-white">
+                            <th class="p-2">Image</th>
+                            <th class="p-2">Nom</th>
+                            <th class="p-2">Catégorie</th>
+                            <th class="p-2">Prix</th>
+                            <th class="p-2">Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="productsBody"></tbody>
+                </table>
+            </div>
+    </main>
+    <footer class="bg-black flex flex-col gap-8 p-8 md:py-24  md:flex md:flex-row lg:justify-around">
+        <div class=" flex flex-col gap-4">
+            <img class="size-12" src="./assets/icons/horloge-24-heures.png" alt="">
+            <div class="text-white">
+                <h4 class="font-mono text-xl">Disponible 24 / 24</h4>
+                <p>Choisissez le créneau qui vous ressemble , le jour meme.</p>
+            </div>
+        </div>
+        <div class=" flex flex-col gap-4">
+            <img class="size-12" src="./assets/icons/nature.png" alt="">
+            <div class="text-white">
+                <h4 class="font-mono text-xl">Mieux manger</h4>
+                <p>Des produits de saisons , et +1200 autre produits.</p>
+            </div>
+        </div>
+        <div class=" flex flex-col gap-4">
+            <img class="size-12" src="./assets/icons/cercle.png" alt="">
+            <div class="text-white">
+                <h4 class="font-mono text-xl">Livraison</h4>
+                <p>Livraison partout , juste remplissez vos panier , et contacter nous.</p>
+            </div>
+        </div>
+    </footer>
+    <script type="module" src="./js/admin.js" ></script>
+</body>
+</html>
